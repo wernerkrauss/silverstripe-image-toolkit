@@ -1,0 +1,8 @@
+---
+Name: image-toolkit-test-routes
+Only:
+  environment: dev
+---
+SilverStripe\Control\Director:
+  rules:
+    'image-toolkit-test//$Action/$ID/$OtherID': Netwerkstatt\ImageToolkit\Control\ImageToolkitTestController

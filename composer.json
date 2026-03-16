@@ -1,0 +1,41 @@
+{
+    "name": "netwerkstatt/silverstripe-image-toolkit",
+    "description": "A Silverstripe module with various image manipulations (Watermark, AutoOrient, ColorOverlay, etc.) via Intervention Image.",
+    "type": "silverstripe-vendor-module",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Werner Krauß",
+            "email": "werner.krauss@netwerkstatt.at"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "silverstripe/framework": "^6",
+        "silverstripe/assets": "^3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10 || ^11"
+    },
+    "autoload": {
+        "psr-4": {
+            "Netwerkstatt\\ImageToolkit\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Netwerkstatt\\ImageToolkit\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "installer-name": "image-toolkit",
+        "expose": [
+            "images"
+        ]
+    },
+    "config": {
+        "allow-plugins": {
+            "silverstripe/vendor-plugin": true
+        }
+    }
+}

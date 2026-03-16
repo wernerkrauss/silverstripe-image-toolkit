@@ -1,0 +1,14 @@
+---
+Name: netwerkstatt-image-toolkit
+---
+SilverStripe\Assets\Image:
+  extensions:
+    watermark: Netwerkstatt\ImageToolkit\Extension\Watermark
+    autoorient: Netwerkstatt\ImageToolkit\Extension\AutoOrient
+    coloroverlay: Netwerkstatt\ImageToolkit\Extension\ColorOverlay
+
+SilverStripe\Assets\Storage\DBFile:
+  extensions:
+    watermark: Netwerkstatt\ImageToolkit\Extension\Watermark
+    autoorient: Netwerkstatt\ImageToolkit\Extension\AutoOrient
+    coloroverlay: Netwerkstatt\ImageToolkit\Extension\ColorOverlay
