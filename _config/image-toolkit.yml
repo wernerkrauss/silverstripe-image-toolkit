@@ -6,9 +6,11 @@ SilverStripe\Assets\Image:
     watermark: Netwerkstatt\ImageToolkit\Extension\Watermark
     autoorient: Netwerkstatt\ImageToolkit\Extension\AutoOrient
     coloroverlay: Netwerkstatt\ImageToolkit\Extension\ColorOverlay
+    svgplaceholder: Netwerkstatt\ImageToolkit\Extension\SvgPlaceholder
 
 SilverStripe\Assets\Storage\DBFile:
   extensions:
     watermark: Netwerkstatt\ImageToolkit\Extension\Watermark
     autoorient: Netwerkstatt\ImageToolkit\Extension\AutoOrient
     coloroverlay: Netwerkstatt\ImageToolkit\Extension\ColorOverlay
+    svgplaceholder: Netwerkstatt\ImageToolkit\Extension\SvgPlaceholder
