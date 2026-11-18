@@ -2,8 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/2.0.0.html).
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0.html),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+### Added
+- **SVG Placeholder (LQIP)** for `Image` and `DBFile`.
+  - Renders a tiny blurred thumbnail embedded in an SVG container and returns it as a data URI.
+  - The SVG preserves the original aspect ratio (no layout shift while the full image loads).
+  - Configurable thumbnail width and blur strength, with a cache to avoid regeneration on repeated renders (e.g. static publishing).
+  - Extension hook `updateSvgPlaceholder` for modifying the generated data URI.
+  - Template alias `LQIP`.
 
 ## [1.0.0] - 2026-03-16
 
